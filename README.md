@@ -5,17 +5,17 @@
 1. Build:
 
 ~~~ 
-docker build -t my-app:latest -f Dockerfile.prod .
+docker build -t chatgp:latest .
 ~~~
 
 2. Start Container:
 
 ~~~ 
-docker run --rm -p 3000:3000 -it myapp:dev
+docker run --rm -p 3000:3000 -it chatgpt:latest
 ~~~
 
 3. Use Docker Compose for Ease of Use:
 
 ~~~ 
-docker compose -f docker-compose.dev.yml up --build --force-recreate
+docker compose up --build --force-recreate
 ~~~

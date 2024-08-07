@@ -24,10 +24,9 @@ export default function Chat() {
           <div key={m.id} className="text-gray-700 whitespace-pre-wrap">
             <b>{m.role === "user" ? "User: " : "AI: "}</b>
             {m.content}
-            <hr></hr>
           </div>
         ))}
       </div>
     </div>
-  )
+  );
 }
