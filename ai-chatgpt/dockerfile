@@ -9,5 +9,3 @@ RUN npm install --verbose
 COPY . .
 
 CMD ["npm", "run", "dev"]
-
-
