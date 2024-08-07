@@ -1,6 +1,6 @@
-## Open AI Interface to Chat GPT
+# Open AI Interface to Chat GPT
 
-# This repo containers procedures to build and deploy within Docker Containers
+## This repo containers procedures to build and deploy within Docker Containers
 
 1. Build:
 
