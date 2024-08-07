@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+ app:
+  image: chatgpt:latest
+  container_name: chatgpt-latest
+  build: 
+    context: .
+  volumes:
+    - ./public:/app/public
+    - ./app:/app/app
+  ports:
+    - 3000:3000
+
+  
