@@ -5,7 +5,7 @@
 1. Build:
 
 ~~~ 
-docker build -t chatgp:latest .
+docker build -t chatgpt:latest .
 ~~~
 
 2. Start Container:
