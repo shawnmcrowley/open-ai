@@ -1,4 +1,4 @@
-// Chat GPT and Next Integration Using Vercel Openai SKD
+// Chat GPT and Next Integration Using Vercel Openai SDK
 
 import { openai } from "@ai-sdk/openai"
 import { streamText } from "ai"
