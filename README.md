@@ -2,6 +2,8 @@
 
 ### This repo containers procedures to build and deploy within Docker Containers
 
+#### Step One, go to https://platform.openia.com and register for an OpenAI API Key, place in .env.local as OPENAI_API_KEY
+
 1. Build:
 
 ~~~ 
